@@ -1,164 +1,17 @@
-body {
-    margin: 0;
-    background: grey;
+body{
+  background-color: #def4f0;
 }
+hr{
+  background: white;
+  border-style: none;
+  height: 2px;
+}
+/*----------------- create dotted herizetal------------------------------- */
 
-#header {
-    width: 900px;
-    height: 100px;
-    background: red;
-    margin: 0 auto;
-}
-
-#logo>a>img {
-    width: 25%;
-    height: 100%;
-    background: white;
-    float: left;
-}
-
-#nav-about {
-    width: 75%;
-    height: 40%;
-    background: #710101;
-    float: right;
-    font-size: 0;
-}
-
-#nav-about>a {
-    text-decoration: none;
-    padding: 9px 10px;
-    color: gray;
-    display: inline-block;
-    font-size: initial;
-}
-
-li {
-    background: blue;
-}
-
-#nav-about>a:hover {
-    color: purple;
-    background: green;
-}
-
-#nav {
-    width: 75%;
-    height: 60%;
-    background: #A00404;
-    float: right;
-    font-size: 0;
-}
-
-#nav>a {
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-    font-size: initial;
-    padding: 18px 10px;
-    height: 100%;
-}
-
-#HOME {
-    float: left;
-}
-
-#nav>a:hover {
-    background: green;
-    color: purple;
-}
-
-#feature {
-    width: 900px;
-    height: 400px;
-    margin: 0 auto;
-    background: blue;
-}
-
-#slide {
-    width: 65%;
-    height: 100%;
-    float: left;
-    background: yellow;
-}
-
-#slide-title {
-    width: 35%;
-    height: 100%;
-    float: right;
-    background: greenyellow;
-}
-
-#slide-title>div {
-    width: 100%;
-    height: 20%;
-    background: blue;
-}
-
-#slide-title>div:hover {
-    color: white;
-    background: green;
-}
-
-#news {
-    width: 900px;
-    margin: 0 auto;
-    overflow: auto;
-    background: white;
-}
-
-#news>div {
-    width: 25%;
-    float: left;
-    padding: 0 1%;
-}
-
-#news>div>h4 {
-    border-bottom: 4px solid green;
-}
-
-#news>div>div {
-    font-size: 0;
-    padding-top: 10px;
-}
-
-#news>div>.a {
-    font-size: 17px;
-    float: right;
-    padding: 7px;
-    border: 2px solid gray;
-    margin: 7px;
-}
-
-#news>div>div>img {
-    width: 35%;
-    display: inline-block;
-    vertical-align: top;
-    padding-right: 5%;
-}
-
-#news>div>div>p {
-    width: 60%;
-    display: inline-block;
-    font-size: 12px;
-    vertical-align: top;
-    margin: 0;
-    height: 54px;
-    overflow: hidden;
-}
-
-#news>div>div>div {
-    width: 91.1%;
-    height: 25px;
-    background-color: grey;
-    border-right: 10px solid green;
-    /*background-image: url("../img/img.jpg");
-    background-repeat: repeat-y;
-    background-position: right;*/
-}
-
-#footer {
-    width: 100%;
-    height: 250px;
-    background: black;
-}
+/* hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+} */
